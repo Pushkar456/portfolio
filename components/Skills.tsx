@@ -1,40 +1,7 @@
-// import SectionHeading from "./SectionHeading";
 
-{
-  /* <h1>Skills</h1> */
-}
 const Skills = () => {
   return (
-    // <section
-    //   id="about"
-    //   className=" pt-10 max-w-6xl h-screen mx-auto "
-    // >
-    //   {/* <h2 className="text-xl font-bold text-center mb-16 ">
-    //     About Me
-    //   </h2> */}
-    //   <SectionHeading title="Skills" />
-
-    //   <div className="grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-6 gap-5 items-center my-4 ">
-    //     <div className="bg-blue-500 px-6 py-4 rounded-md bg-gray-800 px-3 py-1 rounded text-center w-30 md:w-35" >Javascript</div>
-    //     <div className="bg-blue-500 px-6 py-4 rounded-md w-30 md:w-35 bg-gray-800" >Javascript</div>
-    //     <div className="bg-blue-500 px-6 py-4 rounded-md w-30 md:w-35 bg-gray-800" >Javascript</div>
-    //     <div className="bg-blue-500 px-6 py-4 rounded-md w-30 md:w-35 bg-gray-800" >Javascript</div>
-    //     <div className="bg-blue-500 px-6 py-4 rounded-md w-30 md:w-35 bg-gray-800" >Javascript</div>
-    //     <div className="bg-blue-500 px-6 py-4 rounded-md w-30 md:w-35 bg-gray-800" >Javascript</div>
-    //     <div className="bg-blue-500 px-6 py-4 rounded-md w-30 md:w-35 bg-gray-800" >Javascript</div>
-    //     <div className="bg-blue-500 px-6 py-4 rounded-md w-30 md:w-35 bg-gray-800" >Javascript</div>
-    //     <div className="bg-blue-500 px-6 py-4 rounded-md w-30 md:w-35 bg-gray-800" >Javascript</div>
-    //     <div className="bg-blue-500 px-6 py-4 rounded-md w-30 md:w-35 bg-gray-800" >Javascript</div>
-    //     <div className="bg-blue-500 px-6 py-4 rounded-md w-30 md:w-35 bg-gray-800" >Javascript</div>
-    //     <div className="bg-blue-500 px-6 py-4 rounded-md w-30 md:w-35 bg-gray-800" >Javascript</div>
-    //     <div className="bg-blue-500 px-6 py-4 rounded-md w-30 md:w-35 bg-gray-800" >Javascript</div>
-    //     <div className="bg-blue-500 px-6 py-4 rounded-md w-30 md:w-35 bg-gray-800" >Javascript</div>
-    //     <div className="bg-blue-500 px-6 py-4 rounded-md w-30 md:w-35 bg-gray-800" >Javascript</div>
-    //     <div className="bg-blue-500 px-6 py-4 rounded-md w-30 md:w-35 bg-gray-800" >Javascript</div>
-    //     <div className="bg-blue-500 px-6 py-4 rounded-md w-30 md:w-35 bg-gray-800" >Javascript</div>
-    //     <div className="bg-blue-500 px-6 py-4 rounded-md w-30 md:w-35 bg-gray-800" >Javascript</div>
-    //   </div>
-    // </section>
+    
     <div className="bg-black text-neutral-200 min-h-screen py-20">
       <h1
         className="text-center text-6xl md:text-8xl font-extrabold 
