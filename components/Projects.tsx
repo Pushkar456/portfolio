@@ -172,7 +172,7 @@ const Projects = () => {
   <div className="absolute top-40 left-10 w-96 h-96 bg-neutral-500/5 rounded-full blur-3xl"></div>
   <div className="absolute bottom-40 right-10 w-96 h-96 bg-neutral-600/5 rounded-full blur-3xl"></div>
   <div className="max-w-7xl mx-auto relative z-10">
-    <div className="absolute inset-0 bg-linear-to-b from-transparent via-neutral-950/5 to-transparent"></div>
+    {/* <div className="absolute inset-0 bg-linear-to-b from-transparent via-neutral-950/5 to-transparent border border-red-600 "></div> */}
     <div className="text-center mb-16" style={{opacity: 1, transform: "none"}}>
       <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 bg-linear-to-r from-neutral-400 via-neutral-200 to-neutral-400 bg-clip-text text-transparent">
           Projects
@@ -203,7 +203,7 @@ const Projects = () => {
           <div className="space-y-3">
             <h4 className="text-lg font-semibold text-neutral-300">Technologies Used</h4>
             <div className="flex flex-wrap gap-2">
-              <span className="bg-linear-to-br from-neutral-800 to-neutral-900 text-neutral-200 px-4 py-2 rounded-lg text-sm border border-neutral-700/50 hover:border-neutral-500/50 transition-all duration-300">Next.js</span>
+              <span className="bg-linear-to-br from-neutral-800 to-neutral-900 text-neutral-200 px-4 py-2 rounded-lg text-sm border border-neutral-700/50 hover:border-neutral-500/50 transition-all duration-300 hover:bg-neutral-800 hover:scale-105 transition-all duration-200">Next.js</span>
               <span className="bg-linear-to-br from-neutral-800 to-neutral-900 text-neutral-200 px-4 py-2 rounded-lg text-sm border border-neutral-700/50 hover:border-neutral-500/50 transition-all duration-300">TypeScript</span>
               <span className="bg-linear-to-br from-neutral-800 to-neutral-900 text-neutral-200 px-4 py-2 rounded-lg text-sm border border-neutral-700/50 hover:border-neutral-500/50 transition-all duration-300">WebSocket</span>
               <span className="bg-linear-to-br from-neutral-800 to-neutral-900 text-neutral-200 px-4 py-2 rounded-lg text-sm border border-neutral-700/50 hover:border-neutral-500/50 transition-all duration-300">Prisma</span>
@@ -215,7 +215,7 @@ const Projects = () => {
            {/* this is first project img description */}
 
           <div className="flex flex-wrap gap-4">
-            <a href="https://anydraw-frontend.onrender.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-linear-to-r from-neutral-600 to-neutral-700 hover:from-neutral-500 hover:to-neutral-600 text-white px-8 py-3 rounded-xl font-semibold transition-all duration-300 shadow-lg" tabIndex={0}>
+            <a href="https://anydraw-frontend.onrender.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-linear-to-r from-neutral-600 to-neutral-700 hover:from-neutral-500 hover:to-neutral-600 text-white px-8 py-3 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:bg-neutral-800 hover:scale-105 transition-all duration-200" tabIndex={0}>
               <svg stroke="currentColor" fill="currentColor" strokeWidth={0} viewBox="0 0 512 512" className="w-4 h-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                 <path d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"></path>
               </svg>
@@ -236,7 +236,7 @@ const Projects = () => {
             <div className="relative overflow-hidden rounded-xl">
               <img alt="Real-Time Collaborative Whiteboard screenshot" className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-110" src="/execalidraw.png"></img>
               <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
-              <a href="https://anydraw-frontend.onrender.com" target="_blank" rel="noopener noreferrer" className="bg-linear-to-r from-neutral-600 to-neutral-700 text-white p-5 rounded-full shadow-2xl" style={{transform: "scale(0)"}}>
+              <a href="https://anydraw-frontend.onrender.com" target="_blank" rel="noopener noreferrer" className="bg-linear-to-r from-neutral-600 to-neutral-700 text-white p-5 rounded-full shadow-2xl hover:bg-neutral-800 hover:scale-105 transition-all duration-200" style={{transform: "scale(0)"}}>
                 <svg stroke="currentColor" fill="currentColor" strokeWidth={0} viewBox="0 0 512 512" className="w-7 h-7" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                   <path d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"></path>
                 </svg>

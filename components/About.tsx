@@ -74,7 +74,7 @@ const About = () => {
             and system design fundamentals. Passionate about writing clean,
             production-ready code.
           </p>
-          <p>
+          <p   className="text-gray-400 text-lg leading-8 mt-6">
             My journey has been about constant learning — from building real-time apps like Excalidraw -The collaborative app, Instamart-clone and My-Brain
           </p>
           
@@ -84,5 +84,5 @@ const About = () => {
     </section>
   );
 };
-
+    
 export default About;

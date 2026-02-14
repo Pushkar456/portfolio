@@ -1,4 +1,4 @@
-import SectionHeading from "./SectionHeading";
+// import SectionHeading from "./SectionHeading";
 
 {
   /* <h1>Skills</h1> */
