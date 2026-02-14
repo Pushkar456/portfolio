@@ -16,9 +16,6 @@ const About = () => {
       id="about"
       className=" pt-10 max-w-6xl h-screen mx-auto "
     >
-      {/* <h2 className="text-xl font-bold text-center mb-16 ">
-        About Me
-      </h2> */}
       <SectionHeading title="About Me" />
 
       <div className="grid md:grid-cols-2 gap-16 items-center my-4">
