@@ -133,7 +133,7 @@ const Contact = () => {
                   Download my resume:
                 </p>
                 <a
-                  href="https://drive.google.com/file/d/1TTmNoXks-5MMnGju1p3dcNPosCuDSJu_/view?usp=sharing"
+                  href="https://drive.google.com/file/d/137n4k5Gz5D_fG25TkTyrObMbZLP3rH1v/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 border-2 border-neutral-600 text-neutral-300 
